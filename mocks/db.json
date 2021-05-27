@@ -1,0 +1,64 @@
+{
+   "products":[
+      {
+         "id":1,
+         "code":1,
+         "name":"Galleta óreo",
+         "description":"Galletas extra deliciosas"
+      },
+      {
+         "id":2,
+         "code":2,
+         "name":"Dento",
+         "description":"Crema Dental extra poderosa"
+      },
+      {
+         "id":3,
+         "code":3,
+         "name":"Ayudin",
+         "description":"Crema Dental extra poderosa"
+      },
+      {
+         "id":4,
+         "code":4,
+         "name":"Sapolio",
+         "description":"Crema Dental extra poderosa"
+      },
+      {
+         "id":5,
+         "code":5,
+         "name":"Alcohol en Gel",
+         "description":"Crema Dental extra poderosa"
+      },
+      {
+         "id":6,
+         "code":6,
+         "name":"Crema dental triple acción",
+         "description":"Crema Dental extra poderosa"
+      },
+      {
+         "id":7,
+         "code":7,
+         "name":"Jabón Líquido Antibacterial",
+         "description":"Crema Dental extra poderosa"
+      },
+      {
+         "id":8,
+         "code":8,
+         "name":"Almidon",
+         "description":"Almidon plancha fácil Amor"
+      },
+      {
+         "id":9,
+         "code":9,
+         "name":"Detergente",
+         "description":"Detergente Bolivar Active Care"
+      },
+      {
+         "id":10,
+         "code":10,
+         "name":"Chocolate",
+         "description":"Chocolate PURO POPS TROPICAL"
+      }
+   ]
+}
