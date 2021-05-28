@@ -10,7 +10,7 @@ export class PresentationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    
+
   }
 
 }

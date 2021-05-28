@@ -1,5 +1,5 @@
-<div>
-  <table mat-table [dataSource]="products" class="mat-elevation-z8">
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource">
     <!-- Position Column -->
     <ng-container matColumnDef="position">
       <th mat-header-cell *matHeaderCellDef> Código </th>
@@ -21,8 +21,8 @@
     <!-- Symbol Column -->
     <ng-container matColumnDef="symbol">
       <th mat-header-cell *matHeaderCellDef> Acción</th>
-      <td mat-cell *matCellDef="let element"> 
-        <button mat-raised-button color="warn">Delete</button> 
+      <td mat-cell *matCellDef="let element; let i = index;"> 
+        <button mat-raised-button color="warn" (click)="openDialog(element, i)">Delete</button> 
       </td>
     </ng-container>
   
@@ -30,8 +30,5 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
 
-  <mat-paginator [length]="10" [pageSize]="3" [pageSizeOptions]="[3, 5, 10]"></mat-paginator>
-
-
+  <mat-paginator [pageSizeOptions]="[3, 5, 10]"></mat-paginator>
 </div>
-

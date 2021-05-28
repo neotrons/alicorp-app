@@ -10,7 +10,8 @@ import { PresentationComponent } from './home/presentation/presentation.componen
 import { TableContainerComponent } from './home/table-container/table-container.component';
 import { HomeModule } from './home/home.module';
 
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { HttpClientModule } from "@angular/common/http";
     TableContainerComponent,
     PresentationComponent
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
