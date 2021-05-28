@@ -56,10 +56,10 @@ export class TableContainerComponent implements OnInit {
     });
   } */
 
-  deleteProduct( product: Product, i: number ) {
+  deleteProduct( product: Product, i: number ): void {
 
     this.products.splice(i, 1);
-    this.productService.deleteProduct(product.id).subscribe();
+    this.productService.deleteProduct(product.id);
 
     this.dataSource = new MatTableDataSource(this.products);
     this.dataSource.paginator = this.paginator;
